@@ -19,6 +19,7 @@ h3 {
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
 
 .half p {
@@ -44,6 +45,7 @@ h3 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+    margin-bottom: 150px;
 }
 
 .dream-1 img {
@@ -54,4 +56,19 @@ h3 {
     font-family: 'Poppins', sans-serif;
     padding-left: 10%;
     width: 70%;
+}
+
+.flexible {
+    display: flex;
+}
+
+.experience-area {
+    box-shadow: 10px 10px 40px gray;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 5%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    border-left: 10px
 }
